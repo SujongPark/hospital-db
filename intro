@@ -52,7 +52,7 @@
 
 er 다이어그램
 
-classDiagram
+classDiagram{
     환자<|--의사
     환자<|--간호사
     환자 : +String 성명
@@ -75,7 +75,7 @@ classDiagram
     +String 주치환자
     }
  }
- classDiagram 
+ classDiagram {
     직원들<|--의사
     직원들<|--간호사
     직원들 : +String 성명(슈퍼키)
